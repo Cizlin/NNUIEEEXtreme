@@ -32,7 +32,7 @@ int Graph::firstNeighbor(unsigned int vertex, unsigned int start = 0)
 	{
 		if (adjacencyMatrix[vertex][i])
 		{
-			return adjacencyMatrix[vertex][i]; // Found the vertex, return its index.
+			return i; // Found the vertex, return its index.
 		}
 	}
 
